@@ -10,7 +10,7 @@
 
 /* TIPOGRAFIA ESTILOS */
 
-p, {
+p {
     font-family: 'DM Sans', sans-serif;
     font-weight: regular;
 }
@@ -101,7 +101,7 @@ h2 {
     color: #000;
 text-align: center;
 font-family: DM Serif Display;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -228,4 +228,122 @@ footer .rrss ul img {
     padding: 12px 24px;
     font-size: 14px;
     border-radius: 10px;
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 600px) {
+
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .nav-menu {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .hero-subtitle {
+        font-size: 30px;
+    }
+
+    .cta, .cta2 {
+        font-size: 18px;
+    }
+
+
+    /* en lo que creemos */
+
+    .values-section {
+        margin: 100px auto;
+        padding: 36px;
+    
+    }
+
+    .values-section p {
+        font-size: 24px;
+    }
+
+
+
+    .services-section {
+        margin-bottom: 100px;
+    }
+
+    .services-section .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+        font-size: 22px;
+    }
+
+    .services-section .cards img {
+        max-width: 200px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .aportation-section .row-section {
+        flex-direction: row;
+        align-items: top;
+        justify-content: space-between;
+    }
+
+    .aportation-section h3 {
+        font-size: 32px;
+        font-family: 'DM Sans', sans-serif;
+        margin-bottom: 32px;
+    }
+
+    .aportation-section .row-section img {
+        max-width: 45%;
+        margin-top: 0;
+    }
+
+    .aportation-section .row-section p {
+        font-size: 24px;
+        max-width: 45%;
+    }
+
+    .call-to-action-section {
+        margin: 100px auto;
+        padding: 50px; 
+    }
+
+    .call-to-action-section p {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .call-to-action-section .cta {
+        max-width: 200px;
+        margin: 20px auto;
+    }
+
+    footer .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cta2 {
+        padding: 16px;
+        margin: 0;
+    }
+
+    .rrss {
+        margin: 0;
+        gap: 100px;
+    }
+
+
 }
