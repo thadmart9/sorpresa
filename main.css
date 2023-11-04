@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 13px;
+}
+
+
+/* TIPOGRAFIA ESTILOS */
+
+p, {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: regular;
+}
+
+h1, h2, h3, .cta, .cta2 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+}
+
+/* NAVIGATION */
+
+
+.logo img {
+    max-width: 70px;
+}
+
+nav {
+    padding: 13px;
+    background: linear-gradient(180deg, #D7C5E8 0%, rgba(215, 197, 232, 0.00) 100%);
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-top li .menu-links {
+    text-decoration: none;
+    color: #322B29;
+    font-weight: bold;
+    
+}
+
+.menu-top {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+
+
+
+
+/* HERO SECTION */
+
+.hero-section {
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+.main-title span {
+    color: #D3ACF2;
+}
+
+.hero-subtitle {
+    margin: 16px 0;
+    margin-bottom: 50px;
+}
+
+.cta, .menu-top-cta {
+    text-decoration: none; 
+    color: white;
+    background-color: #322B29;
+    padding: 12px 24px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* EN LO QUE CREEMOS */
+
+.values-section {
+    border-radius: 20px;
+background: rgba(215, 197, 232, 0.30);
+margin: 13px;
+text-align: center;
+padding: 24px;
+}
+
+h2 {
+    color: #000;
+text-align: center;
+font-family: DM Serif Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.5px;
+margin-bottom: 16px;
+}
+
+
+
+
+
+/* SERVICIOS*/
+
+.services-section {
+    margin-top: 40px;
+}
+
+.services-section .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 parts of the available space and 1 part of the available space */
+    gap: 8px;
+}
+
+
+.services-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    gap: 14px;
+    border-radius: 20px;
+border: 1px solid #000;
+background: #FFF;
+padding: 16px 0;
+
+/* shadow */
+box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.services-card img {
+    max-width: 140px;
+    align-self: center;
+}
+
+
+/* NUESTRA APORTACION AL MUNDO */
+
+
+.aportation-section {
+    margin: 50px 13px;
+}
+
+.aportation-section, .aportacion-section h2 {
+    text-align: left;
+}
+
+.aportation-section .row-section {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.aportation-section .row-section img {
+    max-width: 100%;
+    object-fit: cover; 
+    margin: 24px 0;
+}
+
+
+
+
+/* DIGITALIZATE*/
+
+.call-to-action-section {
+    border-radius: 20px;
+    background: rgba(215, 197, 232, 0.30);
+    margin: 13px;
+    text-align: center;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.call-to-action-section h2 {
+    font-size: 24px;
+}
+
+
+
+
+/* FOOTER FOOTER FOOTER */
+
+footer {
+    background-color: #313131 ;
+    padding-bottom: 32px;
+}
+
+footer .logo {
+    max-width: 60px;
+}
+
+footer .rrss ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.rrss {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+footer .rrss ul img {
+    max-width: 40px;
+}
+
+.cta2 {
+    text-decoration: none; 
+    color: #322B29;
+    background-color: white;
+    padding: 12px 24px;
+    font-size: 14px;
+    border-radius: 10px;
+}
